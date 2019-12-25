@@ -1,0 +1,4 @@
+pageObjects\LoginPage.class
+org\framework\demo\resources\Base.class
+org\framework\demo\resources\ExtentReporterNG.class
+org\framework\demo\App.class

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27227" started-at="2019-12-24T12:13:31 IST" finished-at="2019-12-24T12:13:59 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27227" started-at="2019-12-24T12:13:31 IST" finished-at="2019-12-24T12:13:59 IST">
+      <class name="org.framework.demo.HomePage">
+        <test-method status="PASS" signature="InitiateDriver()[pri:0, instance:org.framework.demo.HomePage@385c9627]" name="InitiateDriver" is-config="true" duration-ms="11125" started-at="2019-12-24T12:13:31 IST" finished-at="2019-12-24T12:13:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriver -->
+        <test-method status="PASS" signature="HomePage(java.lang.String, java.lang.String)[pri:0, instance:org.framework.demo.HomePage@385c9627]" name="HomePage" duration-ms="11747" started-at="2019-12-24T12:13:43 IST" data-provider="getData" finished-at="2019-12-24T12:13:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[security]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.framework.demo.HomePage@385c9627]" name="teardown" is-config="true" duration-ms="4319" started-at="2019-12-24T12:13:54 IST" finished-at="2019-12-24T12:13:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.framework.demo.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
