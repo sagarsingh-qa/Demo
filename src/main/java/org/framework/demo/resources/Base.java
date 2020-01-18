@@ -16,6 +16,7 @@ public class Base {
 
 	public static WebDriver  driver;
 	public Properties prop;
+	public String datasheet; 
 	public WebDriver initializeDriver() throws IOException
 	{
 		prop = new Properties();
@@ -23,7 +24,7 @@ public class Base {
 		prop.load(fis);
 		String browser = prop.getProperty("browser");
 		String URL = prop.getProperty("URL");
-		
+		datasheet = prop.getProperty("datasheet");
 		if(browser.equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sagar\\eclipse-workspace\\demo\\drivers\\chromedriver.exe");
@@ -46,4 +47,11 @@ public class Base {
 		FileUtils.copyFile(source,new File("C:\\Users\\Sagar\\eclipse-workspace\\demo\\screenshots\\"+result+"screenshot.png"));
 		
 	}
+	
+	public Xls_Reader datasheet(int sheetnumber)
+	{
+	Xls_Reader reader = new Xls_Reader(datasheet, sheetnumber);
+	return reader;
+	}
+	
 }

@@ -7,7 +7,7 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="org.framework.demo.HomePage"/>
+      <class name="org.framework.demo.Provisioning"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
